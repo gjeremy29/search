@@ -12,6 +12,7 @@
 /* unvisited link */
 a:link {
     color: black;
+    text-decoration: none;
   }
   
   /* visited link */
@@ -28,3 +29,41 @@ a:link {
   a:active {
     color: black;
   }
+
+  .center-div{
+    display: flex;
+    justify-content: center;
+  }
+
+.rounded-input{
+    display: flex;
+    z-index: 3;
+    position: relative;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: 584px;
+    max-width: 584px;
+    margin-top: 30px;
+}
+
+.btn-google{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
